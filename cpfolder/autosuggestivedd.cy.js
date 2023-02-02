@@ -11,6 +11,6 @@ it("wikkipedia dropdown",()=>{
 cy.visit("https://www.wikipedia.org/")
 cy.get("#searchInput").type('aust').click()
 cy.get("a[href='https://en.wikipedia.org/wiki/Australia']").click()
-
+//auoto suggestive dropdown
 })
 })
